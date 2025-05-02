@@ -1,2 +1,2 @@
-# NBA Player Career Longevity Prediction Using Naive Bayes Classifier
+# NBA Player Career Longevity Prediction: Using Naive Bayes Classifier
 This project analyzes performance data from NBA players' rookie seasons to predict whether a player will remain in the league for at least five years. Through feature engineering and predictive modeling, the project identifies key performance indicators that correlate with career longevity in the NBA. The final model uses a Naive Bayes classifier to estimate the likelihood of a player sustaining a five-year career, providing insights for team managers and coaches on player retention and long-term team development.
