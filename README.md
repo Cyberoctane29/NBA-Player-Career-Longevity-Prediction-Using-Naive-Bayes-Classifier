@@ -17,23 +17,32 @@ The **NBA Player Career Longevity Prediction** project aims to:
 
 ## **Dataset Structure**
 
-The dataset contains rookie season statistics from **1,340 NBA players**. The primary features used in this analysis include:
+The dataset contains rookie season statistics from **1,340 NBA players**, capturing their on-court performance across various metrics. Key features include:
 
-* **target\_5yrs**: Binary outcome variable (1 if career ≥5 years, 0 otherwise)
+**Career Longevity Target:**
+
+* `target_5yrs`: Binary outcome variable indicating career duration (1 = career ≥5 years, 0 = otherwise)
 
 **Performance Metrics:**
 
-* `pts` (points per game)
-* `fg` (field goal percentage)
-* `3p` (three-point percentage)
-* `ast` (assists per game)
+* `gp`: Games played in the rookie season (integer)
+* `min`: Average minutes played per game (continuous)
+* `pts`: Average points per game (continuous)
+* `fg`: Field goal percentage per game (continuous)
+* `3p`: Three-point field goal percentage per game (continuous)
+* `ast`: Average assists per game (continuous)
+* `stl`: Average steals per game (continuous)
+* `blk`: Average blocks per game (continuous)
+* `reb`: Average rebounds per game (continuous)
+* `tov`: Average turnovers per game (continuous)
+* `ft`: Free throw percentage per game (continuous)
 
 **Engineered Features:**
 
-* `total_points` (total points in rookie season)
-* `efficiency` (points per minute played)
+* `total_points`: Total points scored in the rookie season (derived by multiplying `pts` and `gp`)
+* `efficiency`: Points per minute played (derived by dividing `pts` by `min`)
 
-Additional columns were derived to strengthen model interpretability and performance.
+This dataset forms the basis for exploring career longevity patterns and developing predictive models to identify players likely to sustain long-term NBA careers — providing valuable insights for scouting and roster management.
 
 ---
 
