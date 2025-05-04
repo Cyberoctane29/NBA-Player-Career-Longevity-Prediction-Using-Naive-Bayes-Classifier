@@ -1,3 +1,7 @@
+<p align="center">
+  <img width="70" src="https://i.ibb.co/spn0rD1h/nba-bg-1.png">
+</p>
+
 # NBA Player Career Longevity Prediction: Using Naive Bayes Classifier
 
 This project analyzes how rookie season performance metrics influence the probability of an NBA player sustaining a career of five years or longer. Using **Gaussian Naive Bayes classification**, I aim to model this relationship to inform data-driven decision-making in player scouting and team management. The project uses Python libraries including **pandas**, **seaborn**, **scikit-learn**, **matplotlib**, and **pickle** for data preprocessing, visualization, modeling, and performance evaluation.
