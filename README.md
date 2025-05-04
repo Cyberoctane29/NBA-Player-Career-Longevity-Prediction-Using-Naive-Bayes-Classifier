@@ -1,5 +1,6 @@
-| ![nba](https://i.ibb.co/spn0rD1h/nba-bg-1.png) | 
-|----------------------------------------------|
+<p align="center">
+  <img width="70" src="https://i.ibb.co/spn0rD1h/nba-bg-1.png">
+</p>
 
 # NBA Player Career Longevity Prediction: Using Naive Bayes Classifier
 
